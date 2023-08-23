@@ -8,7 +8,7 @@ export const Container = ({children}:Props) => {
     <div className='
     w-full
     h-full
-    px-2 sm:px-10 2xl:px-80
+    px-2 sm:px-10 xl:px-40 2xl:px-72
     '>{children}</div>
   )
 }

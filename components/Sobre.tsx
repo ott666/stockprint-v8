@@ -1,28 +1,37 @@
 import { Container } from './Container'
 import Image from 'next/image'
 import React, {useState} from 'react'
+import { CardHidGold } from './CardHidGold'
+import Cardbundle from './Produtos/CardBundle/CardBundle'
+import Produtos from '@/data/products.json'
+import { CardInk } from './CardInk'
 
 export const Sobre = () => {
+    const itensBundle=['ink1000','dtc1250e_dual','cartucho']
 
+
+    const result = Produtos.filter((produto)=>{
+        return itensBundle.find((a)=>{
+            return produto.pseudo === a
+        })
+    })
+
+  
  
     return (
     <section id="sobre"
-    className='h-100vh'>
+    className='h-100vh py-10'>
         <Container>
-            <div className='flex flex-col  bg-red-500 md:flex-row items-center'>
-                <div id='parceiroGoldWrap'
-                className={`
-                    relative h-[400px] max-w-[330px] w-full bg-white
-                `}>
-                    <Image src={'/logos/hid_gold.svg'} alt='logo hidgold' fill={true} style={{objectFit:'contain'}}/>
-
+            <div className='flex flex-col gap-5 '>
+                <div className='flex gap-5 flex-col-reverse items-center  lg:flex-row-reverse '>
+                    <CardHidGold/>
+                    
+                    <CardInk/>
+                    </div>
                 </div>
-                <div id='contentSobre'
-                className='flex flex-col w-full md:max-w-[50%]'>
-                <h1 className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quae quaerat cumque!</h1>
-
-                </div>
-            </div>
+            
+            
+         
         </Container>
 
     </section>
