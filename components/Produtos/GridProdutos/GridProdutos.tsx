@@ -28,7 +28,7 @@ const ListaProdutos = ({ selectedGenre }: Props) => {
       {filteredMoviesByGenre.map((product) => {
        
         return (
-          <div className="flex relative items-center justify-center h-[230px] rounded-2xl">
+          <div key={product.id} className="flex relative items-center justify-center h-[230px] rounded-2xl">
 
             <Cardbundle 
             imgPath={`/${product.pseudo}/${product.pseudo}1.png`} 
