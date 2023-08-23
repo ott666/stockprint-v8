@@ -9,6 +9,7 @@ export const HeroSection = () => {
     w-full
     bg-blue-900/30
       h-[50vh]
+      md:h-[95vh]
       lg:h-[100vh]
     relative
     overflow-hidden
@@ -19,6 +20,8 @@ export const HeroSection = () => {
       lg:px-40
       xl:px-52
       2xl:px-72
+      pt-20
+      md:pt-0
    
     `}>
         <video className='absolute w-full h-full z-[-1] object-cover top-0 left-0' autoPlay muted loop src="/video/redes.mp4">
@@ -32,10 +35,9 @@ export const HeroSection = () => {
     relative
     bg-red
     `}>
-        <Image src={'/logos/logo.svg'} fill={true} alt='logo' objectFit='contain'/>
+        <Image src={'/logos/logo.svg'} fill={true} alt='logo' style={{objectFit:'contain'}}/>
     </div>
-    <h1 className='
-    '>teste</h1>
+    
     </section>
 
   )
