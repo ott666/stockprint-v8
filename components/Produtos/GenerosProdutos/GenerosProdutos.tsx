@@ -14,7 +14,7 @@ const GenerosProdutos = ({ selectedGenre, onSelect }: Props) => {
 
   return (
       
-      <ul className='font-sans font-bold p-[15px] bg-slate-100 mt-[30px] rounded-xl
+      <ul className='font-sans font-bold p-[15px] my-10 bg-slate-100 mt-[30px] rounded-xl
       flex flex-col sm:flex-row w-full flex-wrap
       justify-evenly 
       '>

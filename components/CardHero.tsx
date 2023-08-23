@@ -25,7 +25,7 @@ export const CardHero = () => {
             <p className='text-lg pl-2 text-black/70 self-start'>
                 Clique abaixo e saiba mais
             </p>
-            <Link className='bg-transparent text-blue-700 rounded-3xl py-2 w-[80%] max-w-[450px] self-center font-bold text-2xl text-center border-black bg-stone-200 border-2' href={'/'}>Produtos</Link>
+            <Link className='bg-transparent text-blue-700 rounded-3xl py-2 w-[80%] max-w-[450px] self-center font-bold text-2xl text-center border-black bg-stone-200 border-2' href={'/produtos'}>Produtos</Link>
         </div>
   )
 }

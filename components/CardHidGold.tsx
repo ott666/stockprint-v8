@@ -32,7 +32,7 @@ export const CardHidGold = () => {
             <p className='text-md italic pl-2 text-white/50 self-start'>
                 No botão abaixo você confere nossa empresa no site do fabricante.
             </p>
-            <Link className='bg-transparent text-white rounded-3xl py-2 w-[80%] max-w-[450px] self-center font-bold text-2xl text-center border-white border-2' href={'/'}>Saiba mais</Link>
+            <Link className='bg-transparent text-white rounded-3xl py-2 w-[80%] max-w-[450px] self-center font-bold text-2xl text-center border-white border-2' href={'https://www.hidglobal.com/partners/stockprint-2913'}>Saiba mais</Link>
         </div>
   )
 }

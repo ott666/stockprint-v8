@@ -7,8 +7,9 @@ export const ProdutosSection = () => {
     const [selectedGenre, setSelectedGenre] = useState("");
 
     return (
-    <section id="Produtos">
+    <section id="Produtos" className='py-10'>
         <Container>
+        
             <GenerosProdutos selectedGenre={selectedGenre}
                 onSelect={setSelectedGenre}/>
 

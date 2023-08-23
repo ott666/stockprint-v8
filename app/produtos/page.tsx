@@ -7,6 +7,7 @@ import GenerosProdutos from "@/components/Produtos/GenerosProdutos/GenerosProdut
 import { useState } from "react";
 import Breadcrumb2 from "@/components/Breadcrumb2/Breadcrumb2";
 import TransitionEffect from "@/components/layoutComponents/TransitionEffect/TransitionEffect";
+import { ProdutosSection } from "@/components/ProdutosSection";
 export default function Page(){
     const [selectedGenre, setSelectedGenre] = useState("");
     return (
@@ -15,20 +16,7 @@ export default function Page(){
         <TransitionEffect/>
         <Breadcrumb2 props='Produtos'/>
 
-        <Container>
-        <div className="flex flex-col w-full justify-center items-center pb-2 lg:pb-8">
-          <div className="w-full flex justify-center pb-5">
-              <GenerosProdutos
-                selectedGenre={selectedGenre}
-                onSelect={setSelectedGenre}
-              />
-            </div>
-            
-            
-              <ListaProdutos selectedGenre={selectedGenre} />
-        </div>
-          
-        </Container>
+       <ProdutosSection/>
 
     </section>
 
