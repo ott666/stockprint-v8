@@ -11,12 +11,17 @@ module.exports = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-        "3xl": "1900px",
-      },
+      
     },
-    extend: {
+    extend: {fontFamily:{
+      poppins:['var(--font-poppins)']
+    },screens: {
+      android: '360px',
+      xs: '470px',
+      mdc: '750px',
+      "2xl": "1400px",
+      "3xl": "1900px",
+    },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

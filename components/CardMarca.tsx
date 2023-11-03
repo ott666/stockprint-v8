@@ -12,7 +12,9 @@ export const CardMarca = ({marca}:PropsCardMarca) => {
     
     <div className='
     w-full
+    max-w-[350px]
     h-full
+    max-h-[200px]
     relative
     border-black
     bg-white

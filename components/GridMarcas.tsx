@@ -13,7 +13,7 @@ export const GridMarcas = () => {
 
     h-[500px]
         sm:h-[270px]
-        lg:h-full
+        lg:h-[400px]]
 
     w-full  
         lg:w-[60%]

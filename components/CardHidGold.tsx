@@ -19,8 +19,13 @@ export const CardHidGold = () => {
         lg:w-[40%]
                   `}>
             <h1 className='text-2xl text-white font-bold lg:text-start md:text-2xl text-center '>Somos parceiros HID GOLD</h1>
-            <p className='text-lg lg:max-w-none text-white/80 pl-2 '>
-            Oferecemos os melhores preços em nossa linha de produtos, graças à nossa parceria com a HID Global. Isso nos permite fornecer soluções de impressão de alta qualidade a preços imbatíveis.
+            <p className='text-lg lg:max-w-none text-white/80 px-2 '>
+            Graças à nossa sólida parceria com a renomada HID Global, conseguimos disponibilizar os preços mais competitivos em toda a nossa gama de produtos. Isso nos capacita a entregar soluções de impressão de excelência a preços incomparáveis.
+
+
+
+
+
             </p>
             <div id='parceiroGoldWrap'
                                 className={`
