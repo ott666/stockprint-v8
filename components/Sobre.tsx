@@ -7,17 +7,7 @@ import Produtos from '@/data/products.json'
 import { CardInk } from './CardInk'
 
 export const Sobre = () => {
-    const itensBundle=['ink1000','dtc1250e_dual','cartucho']
-
-
-    const result = Produtos.filter((produto)=>{
-        return itensBundle.find((a)=>{
-            return produto.pseudo === a
-        })
-    })
-
-  
- 
+   
     return (
     <section id="sobre"
     className='h-100vh py-10'>

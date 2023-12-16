@@ -23,16 +23,16 @@ export const CardInk = () => {
                   `}>
             <h1 className='text-2xl text-white font-bold lg:text-start md:text-2xl lg:text-3xl text-center capitalize w-full 2xl:text-center lg:pl-3'>O melhor preço do mercado</h1>
             <p className='text-lg lg:max-w-none text-white/80 pl-2 '>
-           Conheça a HID FARGO INK1000, com impressões sem borda branca, não utiliza cabeça de impressão nem ribbon, apenas seu cartucho de tinta YMC.
+           Conheça a HDP6600, com impressões sem borda branca, frente e verso e resolução de 600x600dpi.
             </p>
           
-                                    <Image className='bg-blue-700' src={'/ink1000/ink10009.png'} alt='logo hidgold' fill={true} style={{objectFit:'cover', zIndex:-1, borderRadius:'16px'}}/>
+                                    <Image className='bg-blue-700' src={'/hdp6600/hdp66004.png'} alt='logo hidgold' fill={true} style={{objectFit:'cover', zIndex:-1, borderRadius:'16px'}}/>
 
                       
             <ul className='text-md italic flex flex-col gap-5 self-center px-2 rounded-2xl bg-black/50 py-2 pl-2 text-yellow-400/80 font-semibold '>
             <li>Licença Vitalícia Software Asure ID 7</li>
-            <li>Impressora HID FARGO INK1000</li>
-            <li>Acompanha cartucho color - YMC </li>
+            <li>Impressora HID FARGO HDP6600</li>
+            <li>Acompanha Ribbon Color e Filme Retransfer </li>
             <li>100 Cartões UltraCard</li>
             </ul>
 

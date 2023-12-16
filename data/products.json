@@ -1,23 +1,5 @@
 [
-{"id":1,"title":"HID Fargo INK1000","genre":"impressoras", "url":"impressora", "pseudo":"ink1000", "subt":"Imprime sem bordas",
-"rendimento":"null",
-"tipo":"null",
-"marca":"HID FARGO",
-"subt2":"Não utiliza cabeça",
-"impComp":"null",
-"ribbonComp":"cartucho",
-"descriptions":
-        [
-            "Apresentamos a Impressora INK1000 da linha FARGO®, uma solução compacta e eficiente para suas necessidades de impressão. Com sua capacidade versátil de imprimir em cores vibrantes, tons monocromáticos e até mesmo reemissão em preto, a INK1000 oferece um leque abrangente de opções.",
-            "Além disso, com recursos avançados para a codificação de chips (módulos smart card), esta impressora oferece flexibilidade adicional para suas demandas de impressão. Realiza impressão sem bordas e não utiliza cabeça de impressão."
-        ],
-"frases":
-        [
-            "Utilitário de diagnóstico FARGO Workbench com a ferramenta de correspondência de cores Color Assist",
-            "Personaliza até 225 cartões coloridos por hora (YMCKO)",
-            "Personaliza até 600 cartões monocromáticos por hora (K)"
-        ]
-},
+
 {"id":2,"title":"HID Fargo DTC1500","genre":"impressoras", "url":"impressora", "pseudo":"dtc1500", "subt":"Impressora Direct-To-Card",
 "rendimento":"null",
 "tipo":"null",
