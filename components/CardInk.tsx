@@ -39,7 +39,7 @@ export const CardInk = () => {
             <p className='text-md italic pl-2 text-white/50 self-start'>
                 Poucas unidades em estoque. Pacote por tempo limitado por apenas:
             </p>
-            <Link className='bg-transparent text-white rounded-3xl py-2 w-[80%] max-w-[450px] self-center font-bold text-2xl text-center border-white border-2' href={'https://wa.me/5516992974070?text=Oi%2C+gostaria+de+mais+detalhes'}>R$5.300,00</Link>
+            <Link className='bg-transparent text-white rounded-3xl py-2 w-[80%] max-w-[450px] self-center font-bold text-2xl text-center border-white border-2' href={'https://wa.me/5516992974070?text=Oi%2C+gostaria+de+mais+detalhes'}>Solicite uma cotação</Link>
         </div>
   )
 }
