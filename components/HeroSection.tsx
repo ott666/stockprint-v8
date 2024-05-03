@@ -24,9 +24,10 @@ export const HeroSection = () => {
       md:pt-0
    
     `}>
-        <video className='absolute w-full h-full z-[-1] object-cover top-0 left-0' autoPlay muted loop src="/video/redes.mp4">
-          
-        </video>
+        <div className="absolute aspect-video inset-0">
+  <iframe className="absolute w-full h-full aspect-video	z-[-1]" src="https://www.youtube.com/embed/qHG8D7fd-1E?autoplay=1&mute=1&loop=1&controls=0&rel=0&showinfo=0&modestbranding=1&playlist=qHG8D7fd-1E&" allowfullscreen></iframe>
+</div>
+
     <div id='logowrapper'
     className={`
     
