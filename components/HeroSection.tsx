@@ -24,7 +24,7 @@ export const HeroSection = () => {
       md:pt-0
    
     `}>
-        <div className="absolute aspect-video inset-0">
+        <div className="absolute  h-full aspect-video inset-0">
   <iframe className="absolute w-full h-full aspect-video	z-[-1]" src="https://www.youtube.com/embed/qHG8D7fd-1E?autoplay=1&mute=1&loop=1&controls=0&rel=0&showinfo=0&modestbranding=1&playlist=qHG8D7fd-1E&" allowfullscreen></iframe>
 </div>
 
